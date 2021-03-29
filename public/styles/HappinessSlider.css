@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+	height: 100vh;
+}
+
+.mainCont {
+	padding: 0;
+	margin: 0;
+}
+
+#happinessCarousel .firstSlideBgColor {
+	background-color: #F5C849;
+}
+
+#happinessCarousel .secondSlideBgColor {
+	background-color: #FFFDF0;
+}
+
+#happinessCarousel .thirdSlideBgColor {
+	background-color: #FFFDF0;
+}
+
+#happinessCarousel .firstSlideImg {
+	width: 70%;
+}
+
+#happinessCarousel .secondSlideImg {
+	border-top-right-radius: 22px;
+	border-bottom-right-radius: 22px;
+}
+
+#happinessCarousel .thirdSlideImg {
+	width: 50%;
+}
+
+#happinessCarousel .title {
+	font-size: 44px;
+	font-weight: 700;
+}
+
+#happinessCarousel .secondSlideBgColor .title {
+	font-size: 35px;
+}
+
+#happinessCarousel .secondSlideBgColor .content p {
+	line-height: 1.2;
+}
+
+#happinessCarousel .secondSlideBgColor .subTitle {
+	font-weight: 600;
+	font-size: 25px;
+}
+
+#happinessCarousel .borderLeftRight {
+	border-left: 11px solid #E51A4B;
+	border-right: 11px solid #E51A4B;
+}
+
+#happinessCarousel .borderRight {
+	border-right: 2px solid #B2B3B3;
+}
+
+#happinessCarousel .learnMoreBtn {
+	color: #FFFFFF;
+	border-radius: 5px;
+	border-color: #E31E24;
+	background-color: #E31E24;
+	padding: 0 6px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.7;
+}
+#happinessCarousel .learnMoreBtn:hover {
+	color: #FFFFFF;
+}

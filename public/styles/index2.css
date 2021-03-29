@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+	background-color: #FBF8F3;
+}
+
+.mainCont {
+	padding: 0;
+	margin: 0;
+}
+
+.organeBorderDiv {
+	border: 3px solid #EF7F1A;
+	border-radius: 12px;
+}
+
+.yellowBg {
+	background-color: #F6AE02;
+}
+
+.redBg {
+	background-color: #E31E25;
+}
+
+.orangeBg {
+	background-color: #EF7F1B;
+}
+
+.darkOrangeBg {
+	background-color: #DA5323;
+}
+
+.centerOfCircle {
+	border-radius: 50%;
+	width: 60px;
+}
+
+.darkRedCircle {
+	background-color: #90251F;
+}
+
+.circle {
+	border-radius: 50% !important;
+}
+
+
+.darkRedTitle {
+	color: #90251F;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 42px;
+}
+
+.content {
+	margin: 0 80px;
+}
+
+.content p {
+	color: #514D4B;
+	font-weight: 600;
+	font-size: 17px;
+}
+
+.marginBottomOrange {
+	border-bottom: 2px solid #EF7F1B;
+	margin: 0 80px;
+}
+
+.learnMoreBtn {
+	text-transform: uppercase;
+	padding: 3px 4px;
+	background-color: #E31E25;
+	border-color: #E31E25;
+	color: #FFFFFF;
+}
+.learnMoreBtn:hover {
+	color: #FFFFFF;
+	box-shadow: none;
+}
+
+.subTitle {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: 500;
+	font-size: 34px;
+}
+
+.placeOnBorder {
+	position: relative;
+	bottom: 46px;
+	background-color: #FBF8F3;
+}
+
+.slideBg {
+	background-image: url("../img/wheel\ of\ karma.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center left;
+	padding: 150px 0;
+}
+
+.content p {
+	color: #31302E;
+}
+
+.content a {
+	color: #0315A6;
+	text-decoration: none;
+}
+
+.carousel-control-next {
+	width: 7%;
+	margin: 0 4px;
+}
+
+.otherSlideTitle {
+	color: #DA5323;
+	font-weight: 700;
+	font-size: 42px;
+	text-transform: uppercase;
+}
+
+.lastSlideContent {
+	font-size: 16px !important;
+	font-weight: 500 !important;
+	color: #2E2C29;
+	text-align: left !important;
+}

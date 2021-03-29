@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+	/* background-color: #FFFFFF; */
+	height: 100vh;
+}
+
+.mainCont {
+	padding: 0;
+	margin: 0;
+}
+
+#destinyCarousel .firstSlideBg {
+	background-image: url("../img/destinySlider/BEAUTIFUL\ SUNSET.jpg");
+	background-position: center;
+	background-size: 100%;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 950px) {
+	#destinyCarousel .firstSlideBg {
+		background-size: 300%;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	#destinyCarousel .firstSlideBg {
+		background-size: 600%;
+	}
+}
+
+#destinyCarousel .secondBgSlide {
+	background-image: url("../img/destinySlider/MAN\ THINKING\ PAGE.png");
+	background-position: center;
+	background-size: 100%;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1080px) {
+	#destinyCarousel .secondBgSlide {
+		background-size: 118%;
+	}
+}
+
+@media only screen and (max-width: 950px) {
+	#destinyCarousel .secondBgSlide {
+		background-size: 300%;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	#destinyCarousel .secondBgSlide {
+		background-size: 600%;
+	}
+}
+
+#destinyCarousel .secondBgSlide .innerRow {
+	margin: 40px 0;
+}
+
+#destinyCarousel .bgCircle {
+	background-image: url(../img/destinySlider/TEXTURE\ ABOVE\ DESTINY.png);
+	background-repeat: no-repeat;
+	background-position: 49% 14%;
+	background-size: 44%;
+}
+
+#destinyCarousel .borderBottom {
+	border-bottom: 14px solid #EF7F1A;
+}
+
+#destinyCarousel .title {
+	color: #EF7F1A;
+	font-weight: 700;
+	font-size: 55px;
+}
+
+#destinyCarousel .subTitle {
+	color: #FFFFFF;
+	font-weight: 700;
+	font-size: 29px;
+}
+
+#destinyCarousel .secondBgSlide .title {
+	color: #4CBFDA;
+	line-height: 0.8;
+	font-size: 60px;
+}
+
+#destinyCarousel .secondBgSlide .subTitle {
+	color: #008DD2;
+	margin-top: 18px;
+	line-height: 0.9;
+	font-size: 33px;
+}
+
+#destinyCarousel .marginBottom {
+	margin-bottom: 40px;
+}
+
+#destinyCarousel .content p {
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.2;
+	text-align: justify;
+  text-justify: inter-word;
+}
+
+#destinyCarousel .secondBgSlide .content p {
+	font-weight: 400;
+}
+
+#destinyCarousel .carousel-control-next {
+	right: -63px;
+}

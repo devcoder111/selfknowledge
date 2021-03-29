@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+	height: 100vh;
+}
+
+.mainCont {
+	padding: 0;
+	margin: 0;
+}
+
+#deathCarousel .firstSlideBgColor {
+	background-color: #F5F5F5;
+}
+
+#deathCarousel .secondSlideBgColor {
+	background-color: #FEEFDC;
+}
+
+#deathCarousel .thirdSlideBgColor {
+	background-color: #FEFEFE;
+}
+
+#deathCarousel .fourthSlideBgColor {
+	background-color: #FFFCEC;
+}
+
+#deathCarousel .fifthSlideBgColor {
+	background: rgb(254,250,245);
+	background: radial-gradient(circle, rgba(254,250,245,1) 10%, rgba(253,237,215,1) 49%);
+}
+
+#deathCarousel .sixthSlideBgColor {
+	background-color: #000000;
+}
+
+#deathCarousel .thirdSlideBorder {
+	border-left: 40px solid #000000;
+	border-top: 30px solid #000000;
+	border-bottom: 30px solid #000000;
+}
+
+#deathCarousel .fourthSlideBgImg {
+	background-image: url("../img/fearOfDeath/NO\ FEAR\ OF\ DEATH\ PAGE\ 4.jpg");
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+	border-right: 8px solid #3D84BE;
+}
+
+#deathCarousel .thirdSlideImg {
+	position: relative;
+	left: -1px;
+}
+
+#deathCarousel .fifthSlideImg {
+	width: 75%;
+	border: 8px solid #FFFFFF;
+	border-radius: 25px;
+}
+
+#deathCarousel .sixthSlideImg {
+	width: 56%;
+	height: 300px;
+	border: 5px solid #FFFFFF;
+	border-radius: 50%;
+}
+
+#deathCarousel .title {
+	font-weight: 700;
+	font-size: 50px;
+}
+
+#deathCarousel .firstSlideBgColor .title {
+	color: #203353;
+}
+
+#deathCarousel .secondSlideBgColor .title {
+	color: #000000;
+}
+
+#deathCarousel .thirdSlideBgColor .title {
+	font-size: 45px;
+}
+
+#deathCarousel .sixthSlideBgColor .title {
+	color: #EF7F1A;
+	font-size: 45px;
+}
+
+#deathCarousel .content p {
+	color: #000000;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+#deathCarousel .secondSlideBgColor .content p {
+	font-weight: 400;
+}
+
+#deathCarousel .sixthSlideBgColor .content p {
+	color: #FFFFFF;
+}
+
+#deathCarousel .secondSlideImg {
+	width: 85%;
+}
+
+#deathCarousel .belowImgText {
+	color: #000000;
+	font-weight: 400;
+	font-size: 25px;
+}
+
+#deathCarousel .thirdSlideBgColor .belowImgText {
+	font-size: 22px;
+}
+
+#deathCarousel .sixthSlideBgColor .belowImgText {
+	color: #FFFFFF;
+}
+
+#deathCarousel .content a {
+	color: #0015B0;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+#deathCarousel .learnMoreBtn {
+	color: #FFFFFF;
+	border-radius: 5px;
+	border-color: #E31E24;
+	background-color: #E31E24;
+	padding: 0 6px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.7;
+}
+#deathCarousel .learnMoreBtn:hover {
+	color: #FFFFFF;
+}
+
+#deathCarousel .carousel-control-next {
+	background-color: #2B2A29;
+	width: 40px;
+}

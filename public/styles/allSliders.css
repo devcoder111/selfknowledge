@@ -1,0 +1,733 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* body {
+	height: 100vh;
+} */
+
+.mainCont {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+}
+
+@media only screen and (max-width: 768px) {
+	.mainCont {
+		height: 100vh;
+		max-height: 150vh;
+	}
+}
+
+.bg-black {
+	background-color: #000000;
+}
+
+.bg-white {
+	background-color: #FFFFFF;
+}
+
+.activePanel {
+	flex-grow: 100;
+}
+
+.hiddenPanel {
+	width: 3%;
+	cursor: pointer;
+}
+.hiddenPanel::after {
+	position:relative;
+	top: -600vh;
+	left: 0px;
+	content: "";
+	width: 100%;
+	height: 600vh;
+	display: inline-block;
+	background:rgba(0, 0, 0, 1);
+}
+
+.learnMoreBtn {
+	text-transform: uppercase;
+	padding: 3px 4px;
+	background-color: #E31E25;
+	border-color: #E31E25;
+	color: #FFFFFF;
+}
+.learnMoreBtn:hover {
+	color: #FFFFFF;
+	box-shadow: none;
+}
+
+
+
+
+/* Karma Carousel Styles */
+#karmaCarousel .slideBgColor {
+	background-color: #FBF8F4;
+}
+
+#karmaCarousel .firstSlideImg {
+	width: 80%;
+}
+
+#karmaCarousel .organeBorderDiv {
+	border: 3px solid #EF7F1A;
+	border-radius: 12px;
+}
+
+#karmaCarousel .yellowBg {
+	background-color: #F6AE02;
+}
+
+#karmaCarousel .redBg {
+	background-color: #E31E25;
+}
+
+#karmaCarousel .orangeBg {
+	background-color: #EF7F1B;
+}
+
+#karmaCarousel .darkOrangeBg {
+	background-color: #DA5323;
+}
+
+#karmaCarousel .centerOfCircle {
+	border-radius: 50%;
+	width: 60px;
+}
+
+#karmaCarousel .darkRedCircle {
+	background-color: #90251F;
+}
+
+#karmaCarousel .circle {
+	border-radius: 50% !important;
+}
+
+#karmaCarousel .darkRedTitle {
+	color: #90251F;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 42px;
+}
+
+@media only screen and (max-width: 768px) {
+	#karmaCarousel .darkRedTitle {
+		font-size: 30px;
+	}
+}
+
+#karmaCarousel .content {
+	margin: 0 40px;
+}
+
+@media only screen and (max-width: 584px) {
+	#karmaCarousel .content {
+		margin: 0;
+	}
+}
+
+#karmaCarousel .content p {
+	color: #514D4B;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.1;
+}
+
+#karmaCarousel .marginBottomOrange {
+	border-bottom: 2px solid #EF7F1B;
+	margin: 0 80px;
+}
+
+#karmaCarousel .subTitle {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: 500;
+	font-size: 34px;
+}
+
+#karmaCarousel .placeOnBorder {
+	position: relative;
+	bottom: 78px;
+	background-color: #FBF8F3;
+}
+
+#karmaCarousel .placeOnBorder:last-of-type {
+	width: 130px;
+}
+
+@media only screen and (max-width: 768px) {
+	#karmaCarousel .placeOnBorder:last-of-type {
+		width: 100%;
+		bottom: 32px;
+	}
+}
+
+@media only screen and (max-width: 510px) {
+	#karmaCarousel .placeOnBorder:first-of-type {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 537px) {
+	#karmaCarousel .placeOnBorder .subTitle {
+		font-size: 23px;
+    margin-top: 10px;
+	}
+}
+
+#karmaCarousel .slideBg {
+	background-image: url("../img/karmaSlider/wheel\ of\ karma.png");
+	background-repeat: no-repeat;
+	background-size: 31%;
+	background-position: center left;
+}
+
+#karmaCarousel .slideBg:last-of-type {
+	background-size: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+	#karmaCarousel .slideBg {
+		background-image: none;
+	}
+}
+
+#karmaCarousel .content p {
+	color: #31302E;
+}
+
+#karmaCarousel .content a {
+	color: #0315A6;
+	text-decoration: none;
+}
+
+#karmaCarousel .carousel-control-next {
+	width: 7%;
+	margin: 0 4px;
+}
+
+#karmaCarousel .otherSlideTitle {
+	color: #DA5323;
+	font-weight: 700;
+	font-size: 42px;
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+	#karmaCarousel .otherSlideTitle {
+		font-size: 30px;
+	}
+}
+
+#karmaCarousel .lastSlideSubTitle {
+	text-transform: uppercase;
+	font-family: montserrat;
+	margin-bottom: 12px;
+	padding-bottom: 10px;
+	font-weight: 600;
+}
+
+#karmaCarousel .lastSlideContent {
+	font-size: 16px !important;
+	font-weight: 500 !important;
+	color: #2E2C29;
+	text-align: left !important;
+}
+
+#karmaCarousel .borderRight {
+	border-right: 1px solid #121212;
+}
+
+@media only screen and (max-width: 768px) {
+	#karmaCarousel .borderRight {
+		border-right: none;
+	}
+}
+
+
+
+/* Life Carousel Styles */
+#lifeCarousel .firstSlideBg {
+	background-image: url("../img/thirdSample/LIFE.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 1600px;
+	background-position: top left;
+}
+
+#lifeCarousel .bgPink {
+	background-color: #FFF0ED;
+}
+
+#lifeCarousel .bgGradient {
+	background-image: linear-gradient(to right, #DAD1CA, #FFFFFF);
+}
+
+#lifeCarousel .title {
+	font-weight: 600;
+	font-size: 39px;
+	color: #2B2A29;
+}
+
+#lifeCarousel .titleTime {
+	font-weight: 700;
+}
+
+#lifeCarousel .leftImage {
+	height: 100vh;
+	width: 116vh;
+	border: 3px solid #FFFFFF;
+	border-radius: 97px;
+	transform: rotate(15deg);
+	position: relative;
+	left: -74px;
+	top: -66px;
+}
+
+#lifeCarousel .content p {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+#lifeCarousel .content a {
+	color: #0015B0;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+#lifeCarousel .textWithBGTime {
+	background-image: url(../img/thirdSample/TIME_BG.jpg);
+	background-size: 98.8% 100vh;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+#lifeCarousel .lastSlideImg {
+	border: 8px solid #FFFFFF;
+	border-radius: 30px;
+	height: 49%;
+}
+
+
+
+
+/* Destiny Slider Styles */
+#destinyCarousel .firstSlideBg {
+	background-image: url("../img/destinySlider/BEAUTIFUL\ SUNSET.jpg");
+	background-position: center;
+	background-size: cover;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 950px) {
+	#destinyCarousel .firstSlideBg {
+		background-size: 350%;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	#destinyCarousel .firstSlideBg {
+		background-size: 630%;
+	}
+}
+
+#destinyCarousel .secondBgSlide {
+	background-image: url("../img/destinySlider/MAN\ THINKING\ PAGE.png");
+	background-position: top left;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 950px) {
+	#destinyCarousel .secondBgSlide {
+		background-size: 400%;
+		background-position: top right;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	#destinyCarousel .secondBgSlide {
+		background-size: 600%;
+	}
+}
+
+#destinyCarousel .secondBgSlide .innerRow {
+	margin: 40px 0;
+}
+
+#destinyCarousel .bgCircle {
+	background-image: url(../img/destinySlider/TEXTURE\ ABOVE\ DESTINY.png);
+	background-repeat: no-repeat;
+	background-position: 49% 14%;
+	background-size: 44%;
+}
+
+#destinyCarousel .borderBottom {
+	border-bottom: 14px solid #EF7F1A;
+}
+
+#destinyCarousel .title {
+	color: #EF7F1A;
+	font-weight: 700;
+	font-size: 55px;
+}
+
+#destinyCarousel .subTitle {
+	color: #FFFFFF;
+	font-weight: 700;
+	font-size: 29px;
+}
+
+@media only screen and (max-width: 400px) {
+	#destinyCarousel .title {
+		font-size: 40px;
+	}
+	#destinyCarousel .subTitle {
+		font-size: 22px;
+	}
+}
+
+#destinyCarousel .secondBgSlide .title {
+	color: #4CBFDA;
+	line-height: 0.8;
+	font-size: 60px;
+}
+
+#destinyCarousel .secondBgSlide .subTitle {
+	color: #008DD2;
+	margin-top: 18px;
+	line-height: 0.9;
+	font-size: 33px;
+}
+
+@media only screen and (max-width: 400px) {
+	#destinyCarousel .secondBgSlide .title {
+		font-size: 40px;		
+	}
+
+	#destinyCarousel .secondBgSlide .subTitle {
+		font-size: 22px;
+	}
+}
+
+#destinyCarousel .marginBottom {
+	margin-bottom: 40px;
+}
+
+#destinyCarousel .content p {
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 1.2;
+	text-align: justify;
+  text-justify: inter-word;
+}
+
+@media only screen and (max-width: 400px) {
+	#destinyCarousel .content p {
+		font-size: 15px;
+	}
+}
+
+#destinyCarousel .secondBgSlide .content p {
+	font-weight: 400;
+}
+
+#destinyCarousel .carousel-control-next {
+	right: -63px;
+}
+
+@media only screen and (max-width: 970px) {
+	#destinyCarousel .carousel-control-next {
+		right: -16px;
+	}
+}
+
+
+
+/* Fear of Death Slider Styles */
+#deathCarousel .firstSlideBgColor {
+	background-color: #F5F5F5;
+}
+
+#deathCarousel .secondSlideBgColor {
+	background-color: #FEEFDC;
+}
+
+#deathCarousel .thirdSlideBgColor {
+	background-color: #FEFEFE;
+}
+
+#deathCarousel .fourthSlideBgColor {
+	background-color: #FFFCEC;
+}
+
+#deathCarousel .fifthSlideBgColor {
+	background: rgb(254,250,245);
+	background: radial-gradient(circle, rgba(254,250,245,1) 10%, rgba(253,237,215,1) 49%);
+}
+
+#deathCarousel .sixthSlideBgColor {
+	background-color: #000000;
+}
+
+#deathCarousel .thirdSlideBorder {
+	border-left: 40px solid #000000;
+	border-top: 30px solid #000000;
+	border-bottom: 30px solid #000000;
+}
+
+#deathCarousel .fourthSlideBgImg {
+	background-image: url("../img/fearOfDeath/NO\ FEAR\ OF\ DEATH\ PAGE\ 4.jpg");
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+	border-right: 8px solid #3D84BE;
+}
+
+#deathCarousel .firstSlideImg {
+	position: relative;
+	left: -270px;
+}
+
+#deathCarousel .thirdSlideImg {
+	position: relative;
+	left: -1px;
+}
+
+#deathCarousel .fifthSlideImg {
+	width: 75%;
+	border: 8px solid #FFFFFF;
+	border-radius: 25px;
+}
+
+#deathCarousel .sixthSlideImg {
+	width: 56%;
+	height: 300px;
+	border: 5px solid #FFFFFF;
+	border-radius: 50%;
+}
+
+#deathCarousel .title {
+	font-weight: 700;
+	font-size: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+	#deathCarousel .title {
+		font-size: 30px;
+	}
+}
+
+#deathCarousel .firstSlideBgColor .title {
+	color: #203353;
+}
+
+#deathCarousel .secondSlideBgColor .title {
+	color: #000000;
+}
+
+#deathCarousel .thirdSlideBgColor .title {
+	font-size: 45px;
+}
+
+#deathCarousel .sixthSlideBgColor .title {
+	color: #EF7F1A;
+	font-size: 45px;
+}
+
+@media only screen and (max-width: 768px) {
+	#deathCarousel .thirdSlideBgColor .title,
+	#deathCarousel .sixthSlideBgColor .title {
+		font-size: 30px;
+	}
+}
+
+#deathCarousel .content p {
+	color: #000000;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+#deathCarousel .secondSlideBgColor .content p {
+	font-weight: 400;
+}
+
+#deathCarousel .sixthSlideBgColor .content p {
+	color: #FFFFFF;
+}
+
+#deathCarousel .secondSlideImg {
+	width: 85%;
+}
+
+#deathCarousel .belowImgText {
+	color: #000000;
+	font-weight: 400;
+	font-size: 25px;
+}
+
+#deathCarousel .thirdSlideBgColor .belowImgText {
+	font-size: 22px;
+}
+
+#deathCarousel .sixthSlideBgColor .belowImgText {
+	color: #FFFFFF;
+}
+
+#deathCarousel .content a {
+	color: #0015B0;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+#deathCarousel .carousel-control-next {
+	background-color: #2B2A29;
+	width: 40px;
+}
+
+
+
+
+/* Happiness Slider Styles */
+#happinessCarousel .carousel-control-next {
+	right: -63px;
+}
+
+@media only screen and (max-width: 970px) {
+	#happinessCarousel .carousel-control-next {
+		right: -16px;
+	}
+}
+#happinessCarousel .firstSlideBgColor {
+	background-color: #F5C849;
+}
+
+#happinessCarousel .secondSlideBgColor {
+	background-color: #FFFDF0;
+}
+
+#happinessCarousel .thirdSlideBgColor {
+	background-color: #FFFDF0;
+}
+
+#happinessCarousel .firstSlideImg {
+	width: 70%;
+}
+
+#happinessCarousel .secondSlideImg {
+	border-top-right-radius: 22px;
+	border-bottom-right-radius: 22px;
+}
+
+#happinessCarousel .thirdSlideImg {
+	width: 50%;
+}
+
+#happinessCarousel .title {
+	font-size: 44px;
+	font-weight: 700;
+}
+
+
+#happinessCarousel .secondSlideBgColor .title {
+	font-size: 35px;
+}
+
+#happinessCarousel .secondSlideBgColor .content p {
+	line-height: 1.2;
+}
+
+#happinessCarousel .secondSlideBgColor .subTitle {
+	font-weight: 600;
+	font-size: 25px;
+}
+
+@media only screen and (max-width: 400px) {
+	#happinessCarousel .title,
+	#happinessCarousel .secondSlideBgColor .title {
+		font-size: 26px;
+	}
+	#happinessCarousel .secondSlideBgColor .subTitle {
+		font-size: 20px;
+	}
+	#happinessCarousel .content p,
+	#happinessCarousel .secondSlideBgColor .content p {
+		font-size: 15px;
+	}
+}
+
+#happinessCarousel .borderLeftRight {
+	border-left: 11px solid #E51A4B;
+	border-right: 11px solid #E51A4B;
+}
+
+#happinessCarousel .borderRight {
+	border-right: 2px solid #B2B3B3;
+}
+
+
+
+
+/* Relation Slider Styles */
+
+#relationCarousel .carousel-control-next {
+	right: -63px;
+}
+
+@media only screen and (max-width: 970px) {
+	#relationCarousel .carousel-control-next {
+		right: -16px;
+	}
+}
+
+#relationCarousel .firstSlideBgColor {
+	background-color: #FFF6E0;
+}
+
+#relationCarousel .secondSlideBgColor {
+	background-color: #D0EBFB;
+}
+
+#relationCarousel .thirdSlideBgColor {
+	background-color: #FEEDD6;
+}
+
+#relationCarousel .fourthSlideBgColor {
+	background-color: #E3EFDF;
+}
+
+#relationCarousel .slideImg {
+	width: 80%;
+}
+
+#relationCarousel .title {
+	color: #2B2A29;
+	font-size: 44px;
+	line-height: 0.8;
+	font-weight: 700;
+}
+
+@media only screen and (max-width: 500px) {
+	#relationCarousel .title {
+		font-size: 30px;
+	}
+}
+
+#relationCarousel .content p {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+#relationCarousel .content a {
+	color: #0015B0;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+@media only screen and (max-width: 500px) {
+	#relationCarousel .content p,
+	#relationCarousel .content a {
+		font-size: 15px;
+	}
+}

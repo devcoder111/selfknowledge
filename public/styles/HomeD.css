@@ -1,0 +1,110 @@
+/* Un happiness Carousel Styles */
+#unHappinessCarousel .carousel-control-prev {
+	left: -63px;
+}
+
+@media only screen and (max-width: 970px) {
+	#unHappinessCarousel .carousel-control-prev {
+		left: -16px;
+	}
+}
+
+#unHappinessCarousel .firstSlideBg {
+	background-image: url("../img/UnhappinessSlider/depressed-sadness-man-despair-sitting_1150-1297.jpg");
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media only screen and (max-width: 401px) {
+	#unHappinessCarousel .firstSlideBg {
+		background-size: 350%;
+	}
+}
+
+#unHappinessCarousel .thirdSlideBgColor {
+	background-color: #FCFAF7;
+}
+
+#unHappinessCarousel .firstSlideImg {
+	border: 5px solid #FFFFFF;
+	border-left: none;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+#unHappinessCarousel .secondSlideBgColor {
+	background-color: #C5C6C6;
+}
+
+#unHappinessCarousel .fourthSlideBgColor {
+	background-color: #C6CD93;
+}
+
+#unHappinessCarousel .borderWhite {
+	border: 15px solid #C5C6C6;
+	border-radius: 25px;
+	background-color: #FFFFFF;
+}
+
+#unHappinessCarousel .fourthBorderWhite {
+	border: 15px solid #C6CD93;
+	border-radius: 25px;
+	background-color: #FFFFFF;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+#unHappinessCarousel .subTitle {
+	font-size: 22px;
+}
+
+#unHappinessCarousel .content p {
+	font-size: 16px;
+}
+
+
+/* Feeling Carousel Styles */
+
+#feelingsCarousel .carousel-control-prev {
+	left: -63px;
+}
+
+@media only screen and (max-width: 970px) {
+	#feelingsCarousel .carousel-control-prev {
+		left: -16px;
+	}
+}
+
+#feelingsCarousel .firstSlideBgColor {
+	background-color: #FECC00;
+}
+
+#feelingsCarousel .firstSlideBorderWhite {
+	border: 15px solid #FECC00;
+	border-radius: 25px;
+	background-color: #FEFEFE;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+#feelingsCarousel .secondSlideBgColor {
+	background-color: #B2B3B3;
+}
+
+#feelingsCarousel .secondSlideBorderWhite {
+	border: 15px solid #B2B3B3;
+	border-radius: 25px;
+	background-color: #FEFEFE;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+#feelingsCarousel .thirdSlideBgColor {
+	background: rgb(235,236,236);
+	background: linear-gradient(90deg, rgba(235,236,236,1) 10%, rgba(255,255,255,1) 73%);
+}
+
+#feelingsCarousel .borderRight {
+	border-right: 2px solid #C5C6C6;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+	background-color: #FFFFFF;
+	height: 100vh;
+}
+
+.mainCont {
+	padding: 0;
+	margin: 0;
+}
+
+#lifeCarousel .firstSlideBg {
+	background-image: url("../img/thirdSample/LIFE.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 1600px;
+	background-position: top left;
+}
+
+#lifeCarousel .bgPink {
+	background-color: #FFF0ED;
+}
+
+#lifeCarousel .bgGradient {
+	background-image: linear-gradient(to right, #DAD1CA, #FFFFFF);
+}
+
+#lifeCarousel .title {
+	font-weight: 600;
+	font-size: 39px;
+	color: #2B2A29;
+}
+
+#lifeCarousel .titleTime {
+	font-weight: 700;
+}
+
+#lifeCarousel .leftImage {
+	height: 100vh;
+	width: 116vh;
+	border: 3px solid #FFFFFF;
+	border-radius: 97px;
+	transform: rotate(15deg);
+	position: relative;
+	left: -74px;
+	top: -66px;
+}
+
+#lifeCarousel .content p {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+#lifeCarousel .content a {
+	color: #0015B0;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+#lifeCarousel .learnMoreBtn {
+	color: #FFFFFF;
+	border-radius: 5px;
+	border-color: #DD1D23;
+	background-color: #DD1D23;
+	padding: 0 6px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 1.7;
+}
+#lifeCarousel .learnMoreBtn:hover {
+	color: #FFFFFF;
+}
+
+#lifeCarousel .textWithBGTime {
+	background-image: url(../img/thirdSample/TIME_BG.jpg);
+	background-size: 98.8% 100vh;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+#lifeCarousel .lastSlideImg {
+	border: 8px solid #FFFFFF;
+	border-radius: 30px;
+	height: 49%;
+}
